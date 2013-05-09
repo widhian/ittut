@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "ittut.malphalabs.APPLICATION"
+    version   = "1.0.0">
+
+	<name>HTML Tutorial</name>
+
+	<description>IT Tutorial - HTML Basic</description>
+
+	<author href="http://facebook.com/melodantadotcom" email="dantaliawidhian@gmail.com">
+	Widhian Bramantya
+	</author>
+
+	<preference name="phonegap-version" value="2.6.0" />
+	<preference name="fullscreen" value="true" />
+	<preference name="prerendered-icon" value="true" />
+
+	<icon src="images/icon/icon.png" />
+	
+	<icon src="images/icon/android/ldpi.png" gap:platform="android" gap:density="ldpi" /> <!-- 36 pixels -->
+    <icon src="images/icon/android/mdpi.png" gap:platform="android" gap:density="mdpi" /> <!-- 48 pixels -->
+    <icon src="images/icon/android/hdpi.png" gap:platform="android" gap:density="hdpi" /> <!-- 72 pixels -->
+    <icon src="images/icon/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" /> <!-- 96 pixels -->
+    
+    <icon src="images/icon/winphone/icon.png" gap:platform="winphone" /> <!-- 57 pixels -->
+    <icon src="images/icon/winphone/tileicon.png" gap:platform="winphone" gap:role="background" /> <!-- 72 pixels -->
+    
+    <gap:splash src="images/splash.png" /> <!-- default 320x480 pixels -->
+    
+    <gap:splash src="images/splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" /> <!-- 200x320 -->
+    <gap:splash src="images/splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" /> <!-- 320x480 -->
+    <gap:splash src="images/splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" /> <!-- 480x800 -->
+    <gap:splash src="images/splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" /> <!-- 720x1280 -->
+    
+    <gap:splash src="images/splash/winphone/splash.jpg" gap:platform="winphone" /> <!-- Windows Phone 7 480x800 -->
+</widget>
