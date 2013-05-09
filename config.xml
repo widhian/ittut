@@ -12,6 +12,7 @@
 	Widhian Bramantya
 	</author>
 
+	<preference name="phonegap-version" value="2.6.0" />
 	<preference name="fullscreen" value="true" />
 	<preference name="prerendered-icon" value="true" />
 
