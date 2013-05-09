@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.replace-2x {
+	font-size: 1px;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:2) {
+	
+	
+	.nav-home{		background-image:url(../images/navigation/home@2x.png);	 	-webkit-background-size: 51px 51px;}
+	
+	.icon-heading{	background-image:url(../images/navigation/heading@2x.png);	-webkit-background-size: 20px 20px;}
+
+	.deploy-share{	background-image:url(../images/navigation/go-home@2x.png); -webkit-background-size:16px 16px;}
+	.deploy-menu{	background-image:url(../images/navigation/nav-deploy@2x.png); -webkit-background-size:16px 16px;}
+	
+};
