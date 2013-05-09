@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
-    xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "ittut.malphalabs.APPLICATION"
-    version   = "1.0.0">
-
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id = "it.malphalabs.APPLICATION"
+	version = "1.0.0"
+	versionCode = "1">
 	<name>HTML Tutorial</name>
 
 	<description>IT Tutorial - HTML Basic</description>
@@ -11,9 +11,6 @@
 	<author href="http://facebook.com/melodantadotcom" email="dantaliawidhian@gmail.com">
 	Widhian Bramantya
 	</author>
-
-	<preference name="fullscreen" value="true" />
-	<preference name="prerendered-icon" value="true" />
 
 	<icon src="images/icon/icon.png" />
 	
