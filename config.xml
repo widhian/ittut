@@ -11,7 +11,9 @@
 	<author href="http://facebook.com/melodantadotcom" email="dantaliawidhian@gmail.com">
 	Widhian Bramantya
 	</author>
-
+	
+	<preference name="phonegap-version" value="2.1.0" />
+	
 	<icon src="images/icon/icon.png" />
 	
 	<icon src="images/icon/android/ldpi.png" gap:platform="android" gap:density="ldpi" /> <!-- 36 pixels -->
